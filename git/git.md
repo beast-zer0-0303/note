@@ -44,3 +44,22 @@ ssh -T github.com
 # サイトでリポジトリを作成し cloneする
 git clone git@github.com:beast-zer0-0303/note
 ```
+
+5. push
+
+```
+# 変更内容をindexに追加
+git add ./
+
+# commit
+git commit -m ''
+
+# ローカルレポジトリの変更内容をリモートレポジトリに反映する
+git push
+
+# ローカルレポジトリの変更内容をリモートレポジトリに反映する
+git pull
+
+# ローカルリポジトリの情報を確認
+git status
+```
